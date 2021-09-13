@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>My Portfolio Web</h1>
+      <h1>My Portfolio Web & Mobile</h1>
     </div>
   );
 }
