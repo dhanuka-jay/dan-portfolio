@@ -1,0 +1,65 @@
+
+#home-page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-image: url('/img/temp-bg.jpg'); */
+    background:  var(--backround-color-gradiant), url("../AppImages/temp-bg.jpg") center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home-page .my-name h1{
+    color: var(--primary-font-color);
+    font-size: 5rem;
+    word-spacing: 1rem;
+    text-shadow: -2.5px 2.5px 0 var(--text-shadow-color),
+                    2.5px 2.5px 0 var(--text-shadow-color),
+                    2.5px -2.5px 0 var(--text-shadow-color),
+                    -2.5px -2.5px 0 var(--text-shadow-color);
+    padding: 5px 25px;
+    border-radius: 15px;
+    background-color: rgba(34, 36, 36, 0.2);
+    width: fit-content;
+}
+
+#home-page .work-titles h3{
+    margin-top: 20px;
+    color: var(--primary-font-color);
+    font-size: 2rem;
+    text-shadow:    -1.5px 1.5px 0 var(--text-shadow-color),
+                    1.5px 1.5px 0 var(--text-shadow-color),
+                    1.5px -1.5px 0 var(--text-shadow-color),
+                    -1.5px -1.5px 0 var(--text-shadow-color);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(34, 36, 36, 0.2);
+    width: fit-content;
+}
+
+#home-page .socialmedia {
+    color: var(--primary-font-color);
+    text-shadow:    -0.75px 0.75px 0 var(--text-shadow-color),
+                    0.75px 0.75px 0 var(--text-shadow-color),
+                    0.75px -0.75px 0 var(--text-shadow-color),
+                    -0.75px -0.75px 0 var(--text-shadow-color);
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(34, 36, 36, 0.2);
+    width: fit-content;
+}
+
+#home-page .socialmedia .social-icon:hover {
+    color: gray;
+    text-shadow:    -0.75px 0.75px 0 var(--link-hover-color),
+                    0.75px 0.75px 0 var(--link-hover-color),
+                    0.75px -0.75px 0 var(--link-hover-color),
+                    -0.75px -0.75px 0 var(--link-hover-color);
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+    transition: all 0.25s ease-in-out;
+}
