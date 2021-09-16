@@ -63,3 +63,34 @@
     transform: scale(1.2, 1.2);
     transition: all 0.25s ease-in-out;
 }
+
+
+
+@media (max-width: 800px) {
+    #home-page .my-name h1{
+        font-size: 3rem;
+        word-spacing: 0.5rem;
+        text-shadow: -1.5px 1.5px 0 var(--text-shadow-color),
+                        1.5px 1.5px 0 var(--text-shadow-color),
+                        1.5px -1.5px 0 var(--text-shadow-color),
+                        -1.5px -1.5px 0 var(--text-shadow-color);
+        padding: 5px 15px;
+        border-radius: 15px;
+        background-color: rgba(34, 36, 36, 0.2);
+        width: fit-content;
+    }
+    
+    #home-page .work-titles h3{
+        margin-top: 10px;
+        color: var(--primary-font-color);
+        font-size: 1.25rem;
+        text-shadow:    -1.5px 1.5px 0 var(--text-shadow-color),
+                        1.5px 1.5px 0 var(--text-shadow-color),
+                        1.5px -1.5px 0 var(--text-shadow-color),
+                        -1.5px -1.5px 0 var(--text-shadow-color);
+        padding: 5px 15px;
+        border-radius: 10px;
+        background-color: rgba(34, 36, 36, 0.2);
+        width: fit-content;
+    }
+}

@@ -83,3 +83,11 @@
 #main-menu .nav-link.link4{
     animation-delay: 3.3s;
 }
+
+
+@media (max-width: 800px) {
+    #main-menu {
+        right: -40vw;
+        width: 40vw;
+    }
+}
