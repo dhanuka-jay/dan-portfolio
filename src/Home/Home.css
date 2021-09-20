@@ -79,10 +79,10 @@
                         1.5px 1.5px 0 var(--text-shadow-color),
                         1.5px -1.5px 0 var(--text-shadow-color),
                         -1.5px -1.5px 0 var(--text-shadow-color);
-        padding: 5px 15px;
+        padding: 5px 10px;
         border-radius: 15px;
         background-color: rgba(34, 36, 36, 0.2);
-        width: fit-content;
+        width: min-content;
     }
     
     #home-page .work-titles h3{
