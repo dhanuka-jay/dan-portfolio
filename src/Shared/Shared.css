@@ -63,9 +63,11 @@
     right: -10vw;
     width: 10vw;
     height: 100vh;
+    outline: 2px dotted black;
+    outline-offset: -5px;
     /* background: linear-gradient(#e8491d99, #ffffff99); */
     /* background: linear-gradient(rgba(232, 73, 29, 0.95), rgba(255, 255, 255, 0.95)); */
-    background:  linear-gradient(rgba(134, 102, 32, 0.8),rgba(230, 199, 134, 0.8));
+    background:  linear-gradient(rgba(83, 62, 17, 0.8),rgba(155, 122, 53, 0.8)), url("../AppImages/menu-bg.jpg") center no-repeat;;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -96,7 +98,7 @@
                     0.75px 0.75px 0 var(--text-shadow-color),
                     0.75px -0.75px 0 var(--text-shadow-color),
                     -0.75px -0.75px 0 var(--text-shadow-color);
-    padding: 15px 10px;
+    padding: 25px 10px;
     animation: nav-item-popup 1s forwards;
 }
 
@@ -155,6 +157,7 @@
     }
 
     #main-menu .link-container { 
+        outline-offset: -15px;
         width: 100vw;
     }
 
