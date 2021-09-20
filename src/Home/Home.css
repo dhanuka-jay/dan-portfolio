@@ -5,6 +5,7 @@
     overflow: hidden;
     /* background-image: url('/img/temp-bg.jpg'); */
     background:  var(--backround-color-gradiant), url("../AppImages/temp-bg.jpg") center no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,12 +54,16 @@
     width: fit-content;
 }
 
+#home-page .socialmedia .social-icon {
+    font-size: 1.8rem;
+}
+
 #home-page .socialmedia .social-icon:hover {
     color: gray;
-    text-shadow:    -0.75px 0.75px 0 var(--link-hover-color),
+    /* text-shadow:    -0.75px 0.75px 0 var(--link-hover-color),
                     0.75px 0.75px 0 var(--link-hover-color),
                     0.75px -0.75px 0 var(--link-hover-color),
-                    -0.75px -0.75px 0 var(--link-hover-color);
+                    -0.75px -0.75px 0 var(--link-hover-color); */
     cursor: pointer;
     transform: scale(1.2, 1.2);
     transition: all 0.25s ease-in-out;

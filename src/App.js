@@ -7,12 +7,15 @@ import { useState } from 'react';
 
 function App() {
 
-  const [activeLink, setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState('');
+  const [toggleMenu, setToggleMenu] = useState(true);
   
   return (
     <Router>
       <div className="App">
         <MainMenu 
+          toggleMenu={toggleMenu}
+          setToggleMenu={setToggleMenu}
           activeLink={activeLink}
           setActiveLink={setActiveLink}
         />

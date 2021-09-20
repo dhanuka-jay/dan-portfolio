@@ -2,7 +2,7 @@
   --primary-font-color: #fff;
   --link-color: #fff;
   --link-hover-color: #e8491d;
-  --text-shadow-color: #6e1b11;
+  --text-shadow-color: rgb(32, 7, 4);
   --backround-color-gradiant: linear-gradient(rgba(46, 45, 46, 1), rgba(83, 81, 81, 0.8));
 }
 
