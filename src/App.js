@@ -3,6 +3,7 @@ import Home from './Home/Home';
 import ContactMe from './ContactMe/ContactMe';
 import MainMenu from './Shared/MainMenu';
 import { useState } from 'react';
+import MyProjects from './Projects/MyProjects';
 
 
 function App() {
@@ -29,6 +30,11 @@ function App() {
             <ContactMe 
             
             />
+          </Route>
+          <Route path="/myprojects">
+              <MyProjects
+
+              />
           </Route>
         </Switch>
       </div>

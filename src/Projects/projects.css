@@ -1,0 +1,31 @@
+#myprojects {
+    width: 80vw;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprojects .project-desc p {
+    font-size: 1.5rem;
+}
+
+#myprojects .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#myprojects .project-container .ui.cards>.card {
+    margin-right: 50px;
+}
+
+@media (max-width: 800px) {
+    #myprojects .project-container .ui.cards>.card {
+        margin-right: 0.5em;
+    }
+}

@@ -30,7 +30,7 @@
 }
 
 #main-menu .toggle-btn {
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 1vw;
     z-index: 10;
@@ -39,6 +39,7 @@
     transform: scale(0, 0);
     animation: nav-item-popup 1.5s forwards;
     animation-delay: 1s;
+    z-index: 20;
 }
 
 #main-menu .toggle-btn i.icon {
@@ -76,6 +77,7 @@
     text-align: center;        
     animation: menu-entry 1s forwards;
     animation-delay: 1s;
+    z-index: 10;
 }
 
 #main-menu .link-container.show{

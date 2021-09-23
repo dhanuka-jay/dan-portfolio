@@ -4,7 +4,7 @@
   --link-hover-color: #e8491d;
   --text-shadow-color: rgb(32, 7, 4);
   --second-text-shadow-color: rgb(83, 62, 17);
-  --backround-color-gradiant: linear-gradient(rgba(46, 45, 46, 1), rgba(83, 81, 81, 0.8));
+  --backround-color-gradiant: linear-gradient(rgba(46, 45, 46, 0.9), rgba(83, 81, 81, 0.9));
 }
 
 * {

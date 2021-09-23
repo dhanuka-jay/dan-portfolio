@@ -35,7 +35,7 @@ const MainMenu = ({toggleMenu, setToggleMenu, activeLink, setActiveLink}) => {
                 </Link>
                 <Link 
                     className="nav-link link3"
-                    to="/mywork"
+                    to="/myprojects"
                 >
                     <h2 
                         className={ activeLink === 'projects' ? "active" :  ''}
